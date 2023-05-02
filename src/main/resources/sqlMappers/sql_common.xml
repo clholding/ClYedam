@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ast.clYedam.dao.commonDao">
+    <select id="getDoctorList" resultType="map">
+        SELECT * FROM DOCTOR
+    </select>
+
+    <select id="getProjectList" resultType="map">
+        SELECT * FROM TB_PROJECT
+        <if test="keyword != null and keyword != ''">
+            WHERE PRJ_NAME like concat('%',#{searchWord},'%')
+               OR TEL like concat('%',#{searchWord},'%')
+               OR EMAIL like concat('%',#{searchWord},'%')
+        </if>
+    </select>
+    <select id="getProject" resultType="map">
+        SELECT * FROM TB_PROJECT WHERE USER_NO = #{id}
+    </select>
+    <insert id="saveProject" parameterType="hashmap">
+        INSERT INTO TB_PROJECT
+            (TYPE, COMPANY, PRJ_MANAGER, TEL, EMAIL, PRJ_NAME
+            , PRJ_DESCRIPTION, FREE_TYPE, FREE_YEAR, FREE_PRICE, FREE_DESCRIPTION
+            , PRJ_FILE_NAME, AWS_FILE_NAME)
+        VALUES("W", #{COMPANY}, #{PRJ_MANAGER}, #{TEL}, #{EMAIL}, #{PRJ_NAME}
+            , #{PRJ_DESCRIPTION}, #{FREE_TYPE}, #{FREE_YEAR}, #{FREE_PRICE}, #{FREE_DESCRIPTION}
+            , #{ORIGINAL_FILE_NAME}, #{AWS_FILE_NAME});
+    </insert>
+    <update id="updateProject" parameterType="hashmap">
+        UPDATE TB_PROJECT SET
+              TYPE = #{TYPE}, COMPANY = #{COMPANY}, PRJ_MANAGER = #{PRJ_MANAGER}, TEL = #{TEL}, EMAIL = #{EMAIL}, PRJ_NAME = #{PRJ_NAME}
+            , PRJ_DESCRIPTION = #{PRJ_DESCRIPTION}, FREE_TYPE = #{FREE_TYPE}, FREE_YEAR = #{FREE_YEAR}, FREE_PRICE = #{FREE_PRICE}
+            , FREE_DESCRIPTION = #{FREE_DESCRIPTION}, PRJ_NOTE = #{PRJ_NOTE}, UPDATE_DATE = CURTIME()
+        WHERE USER_NO = #{USER_NO};
+    </update>
+
+    <insert id="saveFreeData" parameterType="hashmap">
+        INSERT INTO TB_FREELANCER
+            (FREE_NAME, TEL, EMAIL, FREE_TYPE, FREE_YEAR, FREE_PRICE
+            , FREE_DESCRIPTION, PRJ_FILE_NAME, AWS_FILE_NAME)
+        VALUES(#{FREE_NAME}, #{TEL}, #{EMAIL}, #{FREE_TYPE}, #{FREE_YEAR}, #{FREE_PRICE}
+        , #{FREE_DESCRIPTION}, #{ORIGINAL_FILE_NAME}, #{AWS_FILE_NAME});
+    </insert>
+    <select id="getFreelancerList" resultType="map">
+        SELECT * FROM TB_FREELANCER
+        <if test="keyword != null and keyword != ''">
+            WHERE FREE_NAME like concat('%',#{searchWord},'%')
+            OR TEL like concat('%',#{searchWord},'%')
+            OR EMAIL like concat('%',#{searchWord},'%')
+        </if>
+    </select>
+    <select id="getFreelancer" resultType="map">
+        SELECT * FROM TB_FREELANCER WHERE USER_NO = #{id}
+    </select>
+    <update id="updateFreelancer" parameterType="hashmap">
+        UPDATE TB_FREELANCER SET
+            FREE_NAME = #{FREE_NAME}, TEL = #{TEL}, EMAIL = #{EMAIL}
+            , FREE_TYPE = #{FREE_TYPE}, FREE_YEAR = #{FREE_YEAR}, FREE_PRICE = #{FREE_PRICE}
+            , FREE_DESCRIPTION = #{FREE_DESCRIPTION}, FREE_NOTE = #{PRJ_NOTE}, UPDATE_DATE = CURTIME()
+        WHERE USER_NO = #{USER_NO};
+    </update>
+
+    <select id="getDoctorData" resultType="map">
+        SELECT * FROM DOCTOR where DOCTOR_CD = #{DOCTOR_CD}
+    </select>
+    <insert id="saveMedicalReqForm" parameterType="hashmap">
+        INSERT INTO MEDICAL_REQUEST
+            (USER, DOCTOR_CD, SYMPTOM, IMAGE, PAY_METHOD, SHIPPING_AMOUNT)
+        VALUES(#{USER}, #{DOCTOR_CD}, #{SYMPTOM}, NULL, #{PAY_METHOD}, #{SHIPPING_AMOUNT});
+    </insert>
+    <select id="getMedicalReqList" resultType="map">
+        SELECT * FROM MEDICAL_REQUEST
+    </select>
+    <insert id="saveRegisterDoctor" parameterType="hashmap">
+        <selectKey resultType="String" keyProperty="tempProperty" order="BEFORE">
+            SELECT lpad(MAX(PK_NUM) + 1, '5','0')   FROM DOCTOR
+        </selectKey>
+        INSERT INTO DOCTOR
+        (DOCTOR_CD, DOCTOR_NAME, HOSPITAL_CD, HOSPITAL, HOSPITAL_DESC, DEPARTMENT_CD, DEPARTMENT, ORIGINAL_FILE_NAME, AWS_FILE_NAME)
+        VALUES(
+               CONCAT('D', #{tempProperty}),
+               #{DOCTOR_NAME},
+               CONCAT('H', #{tempProperty}),
+               #{HOSPITAL}, #{HOSPITAL_DESC}, #{DEPARTMENT_CD}, #{DEPARTMENT}, #{ORIGINAL_FILE_NAME}, #{AWS_FILE_NAME});
+    </insert>
+</mapper>
