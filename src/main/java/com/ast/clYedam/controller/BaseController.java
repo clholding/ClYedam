@@ -25,10 +25,7 @@ public class BaseController {
         }
         return "index";
     }
-    @RequestMapping("/bootup")
-    public String bootUp(Model model, Principal principal) {
-        return "bootUp";
-    }
+
     @RequestMapping("/index")
     public String index() {
         return "index";
