@@ -26,15 +26,14 @@ public class UserService implements UserDetailsService {
     String localTime = format.format(time);
 
 
-    public void joinUser(UserVo userVo, Map<String, Object> params){
+    public int registerUser(UserVo userVo){
         BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
 
         userVo.setUSER_PW(passwordEncoder.encode(userVo.getUSER_PW()));
-        userVo.setUSER_AUTH("USER");
         userVo.setAPPEND_DATE(localTime);
         userVo.setUPDATE_DATE(localTime);
 
-        int result = userDao.saveUser(userVo);
+        return userDao.saveUser(userVo);
     }
 
     @Override

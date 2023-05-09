@@ -31,4 +31,9 @@ public class BaseController {
         return "index";
     }
 
+    @RequestMapping("/signUp")
+    public String signUp() {
+        return "signUp";
+    }
+
 }
