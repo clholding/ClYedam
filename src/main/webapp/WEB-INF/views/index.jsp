@@ -88,13 +88,13 @@
                         </li>
                         <li class="optionItem optionItemDown"><a href="#"
                                                                  class="optionItemA optionItemAdown"
-                                                                 lang="en">English.</a></li>
+                                                                 lang="en">English</a></li>
                         <li class="optionItem optionItemDown"><a href="#"
                                                                  class="optionItemA optionItemAdown" lang="ja">日本語</a>
                         </li>
                         <li class="optionItem optionItemDown"><a href="#"
                                                                  class="optionItemA optionItemAdown"
-                                                                 lang="zh-CN">中文简体</a></li>
+                                                                 lang="zh-CN">中文简体.</a></li>
                         <li class="optionItem optionItemDown"><a href="#"
                                                                  class="optionItemA optionItemAdown"
                                                                  lang="zh-Hant">中文繁體</a></li>
@@ -136,84 +136,20 @@
         </div>
         <div style="position:relative; width:100%;">
         <div class="swiper swiper-one w-100 swiper-initialized swiper-horizontal">
-            <div class="swiper-wrapper" id="swiper-wrapper-a9f75f1970175721" aria-live="off" style="transition-duration: 0ms; transform: translate3d(-10081.1px, 0px, 0px);"><div class="swiper-slide d-flex flex-column swiper-slide-duplicate" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="0" role="group" aria-label="1 / 15">
+
+            <div class="swiper-wrapper" id="swiper-wrapper-a9f75f1970175721" aria-live="off" style="transition-duration: 0ms;">
+                <div class="swiper-slide d-flex flex-column swiper-slide-duplicate" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="0" role="group" aria-label="1 / 15">
                 <img src="/images/events/poster1.jpg" alt="poster1" style=" height: 500px">
                 <p class="event-name">자치 전시회1</p>
                 <p class="event-date">2022.08.01 ~ 2022.12.31</p>
-            </div><div class="swiper-slide d-flex flex-column swiper-slide-duplicate swiper-slide-duplicate-prev" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="1" role="group" aria-label="2 / 15">
-                <img src="/images/events/poster2.jpg" alt="poster2" style=" height: 500px">
-                <p class="event-name">주민 발표회2</p>
-                <p class="event-date">2022.08.01 ~ 2022.12.31</p>
-            </div><div class="swiper-slide d-flex flex-column swiper-slide-duplicate swiper-slide-duplicate-active" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="2" role="group" aria-label="3 / 15">
-                <img src="/images/events/poster3.jpg" alt="poster3" style=" height: 500px">
-                <p class="event-name">주민 발표회3</p>
-                <p class="event-date">2022.08.01 ~ 2022.12.31</p>
-            </div><div class="swiper-slide d-flex flex-column swiper-slide-duplicate swiper-slide-duplicate-next" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="3" role="group" aria-label="4 / 15">
-                <img src="/images/events/poster6.jpg" alt="poster4" style=" height: 500px">
-                <p class="event-name">자치 축제4</p>
-                <p class="event-date">2022.08.01 ~ 2022.12.31</p>
-            </div><div class="swiper-slide d-flex flex-column swiper-slide-duplicate" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="4" role="group" aria-label="5 / 15">
-                <img src="/images/events/poster9.jpg" alt="poster5" style=" height: 500px">
-                <p class="event-name">주민 자치 행사5</p>
-                <p class="event-date">2022.08.01 ~ 2022.12.31</p>
-            </div><div class="swiper-slide d-flex flex-column swiper-slide-duplicate" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="5" role="group" aria-label="6 / 15">
-                <img src="/images/events/party1.jpg" alt="poster6" style=" height: 500px">
-                <p class="event-name">영화1</p>
-                <p class="event-date">2022.08.01 ~ 2022.12.31</p>
-            </div><div class="swiper-slide d-flex flex-column swiper-slide-duplicate" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="6" role="group" aria-label="7 / 15">
-                <img src="/images/events/party2.jpg" alt="poster7" style=" height: 500px">
-                <p class="event-name">뮤지컬2</p>
-                <p class="event-date">2022.08.01 ~ 2022.12.31</p>
-            </div><div class="swiper-slide d-flex flex-column swiper-slide-duplicate" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="7" role="group" aria-label="8 / 15">
-                <img src="/images/events/party3.jpg" alt="poster8" style=" height: 500px">
-                <p class="event-name">연극3</p>
-                <p class="event-date">2022.08.01 ~ 2022.12.31</p>
-            </div><div class="swiper-slide d-flex flex-column swiper-slide-duplicate" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="8" role="group" aria-label="9 / 15">
-                <img src="/images/events/party4.jpg" alt="poster9" style=" height: 500px">
-                <p class="event-name">영화4</p>
-                <p class="event-date">2022.08.01 ~ 2022.12.31</p>
-            </div><div class="swiper-slide d-flex flex-column swiper-slide-duplicate" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="9" role="group" aria-label="10 / 15">
-                <img src="/images/events/party5.jpg" alt="poster10" style=" height: 500px">
-                <p class="event-name">뮤지컬5</p>
-                <p class="event-date">2022.08.01 ~ 2022.12.31</p>
-            </div><div class="swiper-slide d-flex flex-column swiper-slide-duplicate" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="10" role="group" aria-label="11 / 15">
-                <img src="/images/events/auction1.jpg" alt="poster11" style=" height: 500px">
-                <p class="event-name">작품제목</p>
-                <p class="event-date">(가격)원</p>
-                <p class="nft-text">NFT</p>
-            </div><div class="swiper-slide d-flex flex-column swiper-slide-duplicate" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="11" role="group" aria-label="12 / 15">
-                <img src="/images/events/auction2.jpg" alt="poster12" style=" height: 500px">
-                <p class="event-name">작품제목</p>
-                <p class="event-date">(가격)원</p>
-                <p class="nft-text">NFT</p>
-            </div><div class="swiper-slide d-flex flex-column swiper-slide-duplicate" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="12" role="group" aria-label="13 / 15">
-                <img src="/images/events/auction3.jpg" alt="poster13" style=" height: 500px">
-                <p class="event-name">작품제목</p>
-                <p class="event-date">(가격)원</p>
-                <p class="nft-text">NFT</p>
-            </div><div class="swiper-slide d-flex flex-column swiper-slide-duplicate" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="13" role="group" aria-label="14 / 15">
-                <img src="/images/events/auction4.jpg" alt="poster14" style=" height: 500px">
-                <p class="event-name">작품제목</p>
-                <p class="event-date">(가격)원</p>
-                <p class="nft-text">NFT</p>
-            </div><div class="swiper-slide d-flex flex-column swiper-slide-duplicate" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="14" role="group" aria-label="15 / 15">
-                <img src="/images/events/auction5.jpg" alt="poster15" style=" height: 500px">
-                <p class="event-name">작품제목</p>
-                <p class="event-date">(가격)원</p>
-                <p class="nft-text">NFT</p>
             </div>
-                <div class="swiper-slide d-flex flex-column" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="0" role="group" aria-label="1 / 15">
-                    <img src="/images/events/poster1.jpg" alt="poster1" style=" height: 500px">
-                    <p class="event-name">자치 전시회1</p>
-                    <p class="event-date">2022.08.01 ~ 2022.12.31</p>
-                </div>
                 <div class="swiper-slide d-flex flex-column swiper-slide-prev" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="1" role="group" aria-label="2 / 15">
                     <img src="/images/events/poster2.jpg" alt="poster2" style=" height: 500px">
                     <p class="event-name">주민 발표회2</p>
                     <p class="event-date">2022.08.01 ~ 2022.12.31</p>
                 </div>
                 <div class="swiper-slide d-flex flex-column swiper-slide-active" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="2" role="group" aria-label="3 / 15">
-                    <img src="/images/events/poster6.jpg" alt="poster3" style=" height: 500px">
+                    <img src="/images/events/auction3.jpg" alt="poster3" style=" height: 500px">
                     <p class="event-name">주민 발표회3</p>
                     <p class="event-date">2022.08.01 ~ 2022.12.31</p>
                 </div>
@@ -228,7 +164,7 @@
                     <p class="event-date">2022.08.01 ~ 2022.12.31</p>
                 </div>
 
-                <div class="swiper-slide d-flex flex-column" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="5" role="group" aria-label="6 / 15">
+                <div class="swiper-slide d-flex flex-column" style="width: fit-content; margin-right: 114px;" data-swiper-slide-index="5" role="group" aria-label="6 / 15">
                     <img src="/images/events/party1.jpg" alt="poster6" style=" height: 500px">
                     <p class="event-name">영화11212</p>
                     <p class="event-date">2022.08.01 ~ 2022.12.31</p>
@@ -238,119 +174,8 @@
                     <p class="event-name">뮤지컬2</p>
                     <p class="event-date">2022.08.01 ~ 2022.12.31</p>
                 </div>
-                <div class="swiper-slide d-flex flex-column" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="7" role="group" aria-label="8 / 15">
-                    <img src="/images/events/party3.jpg" alt="poster8" style=" height: 500px">
-                    <p class="event-name">연극3</p>
-                    <p class="event-date">2022.08.01 ~ 2022.12.31</p>
-                </div>
-                <div class="swiper-slide d-flex flex-column" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="8" role="group" aria-label="9 / 15">
-                    <img src="/images/events/party4.jpg" alt="poster9" style=" height: 500px">
-                    <p class="event-name">영화4</p>
-                    <p class="event-date">2022.08.01 ~ 2022.12.31</p>
-                </div>
-                <div class="swiper-slide d-flex flex-column" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="9" role="group" aria-label="10 / 15">
-                    <img src="/images/events/party5.jpg" alt="poster10" style=" height: 500px">
-                    <p class="event-name">뮤지컬5</p>
-                    <p class="event-date">2022.08.01 ~ 2022.12.31</p>
-                </div>
-
-                <div class="swiper-slide d-flex flex-column" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="10" role="group" aria-label="11 / 15">
-                    <img src="/images/events/auction1.jpg" alt="poster11" style=" height: 500px">
-                    <p class="event-name">작품제목</p>
-                    <p class="event-date">(가격)원</p>
-                    <p class="nft-text">NFT</p>
-                </div>
-                <div class="swiper-slide d-flex flex-column" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="11" role="group" aria-label="12 / 15">
-                    <img src="/images/events/auction2.jpg" alt="poster12" style=" height: 500px">
-                    <p class="event-name">작품제목</p>
-                    <p class="event-date">(가격)원</p>
-                    <p class="nft-text">NFT</p>
-                </div>
-                <div class="swiper-slide d-flex flex-column" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="12" role="group" aria-label="13 / 15">
-                    <img src="/images/events/auction3.jpg" alt="poster13" style=" height: 500px">
-                    <p class="event-name">작품제목</p>
-                    <p class="event-date">(가격)원</p>
-                    <p class="nft-text">NFT</p>
-                </div>
-                <div class="swiper-slide d-flex flex-column" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="13" role="group" aria-label="14 / 15">
-                    <img src="/images/events/auction4.jpg" alt="poster14" style=" height: 500px">
-                    <p class="event-name">작품제목</p>
-                    <p class="event-date">(가격)원</p>
-                    <p class="nft-text">NFT</p>
-                </div>
-                <div class="swiper-slide d-flex flex-column" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="14" role="group" aria-label="15 / 15">
-                    <img src="/images/events/auction5.jpg" alt="poster15" style=" height: 500px">
-                    <p class="event-name">작품제목</p>
-                    <p class="event-date">(가격)원</p>
-                    <p class="nft-text">NFT</p>
-                </div>
-
-                <div class="swiper-slide d-flex flex-column swiper-slide-duplicate" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="0" role="group" aria-label="1 / 15">
-                    <img src="/images/events/poster1.jpg" alt="poster1" style=" height: 500px">
-                    <p class="event-name">자치 전시회1</p>
-                    <p class="event-date">2022.08.01 ~ 2022.12.31</p>
-                </div><div class="swiper-slide d-flex flex-column swiper-slide-duplicate swiper-slide-duplicate-prev" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="1" role="group" aria-label="2 / 15">
-                    <img src="/images/events/poster2.jpg" alt="poster2" style=" height: 500px">
-                    <p class="event-name">주민 발표회2</p>
-                    <p class="event-date">2022.08.01 ~ 2022.12.31</p>
-                </div><div class="swiper-slide d-flex flex-column swiper-slide-duplicate swiper-slide-duplicate-active" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="2" role="group" aria-label="3 / 15">
-                    <img src="/images/events/poster3.jpg" alt="poster3" style=" height: 500px">
-                    <p class="event-name">주민 발표회3</p>
-                    <p class="event-date">2022.08.01 ~ 2022.12.31</p>
-                </div><div class="swiper-slide d-flex flex-column swiper-slide-duplicate swiper-slide-duplicate-next" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="3" role="group" aria-label="4 / 15">
-                    <img src="/images/events/poster6.jpg" alt="poster4" style=" height: 500px">
-                    <p class="event-name">자치 축제4</p>
-                    <p class="event-date">2022.08.01 ~ 2022.12.31</p>
-                </div><div class="swiper-slide d-flex flex-column swiper-slide-duplicate" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="4" role="group" aria-label="5 / 15">
-                    <img src="/images/events/poster9.jpg" alt="poster5" style=" height: 500px">
-                    <p class="event-name">주민 자치 행사5</p>
-                    <p class="event-date">2022.08.01 ~ 2022.12.31</p>
-                </div><div class="swiper-slide d-flex flex-column swiper-slide-duplicate" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="5" role="group" aria-label="6 / 15">
-                    <img src="/images/events/party1.jpg" alt="poster6" style=" height: 500px">
-                    <p class="event-name">영화1</p>
-                    <p class="event-date">2022.08.01 ~ 2022.12.31</p>
-                </div><div class="swiper-slide d-flex flex-column swiper-slide-duplicate" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="6" role="group" aria-label="7 / 15">
-                    <img src="/images/events/party2.jpg" alt="poster7" style=" height: 500px">
-                    <p class="event-name">뮤지컬2</p>
-                    <p class="event-date">2022.08.01 ~ 2022.12.31</p>
-                </div><div class="swiper-slide d-flex flex-column swiper-slide-duplicate" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="7" role="group" aria-label="8 / 15">
-                    <img src="/images/events/party3.jpg" alt="poster8" style=" height: 500px">
-                    <p class="event-name">연극3</p>
-                    <p class="event-date">2022.08.01 ~ 2022.12.31</p>
-                </div><div class="swiper-slide d-flex flex-column swiper-slide-duplicate" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="8" role="group" aria-label="9 / 15">
-                    <img src="/images/events/party4.jpg" alt="poster9" style=" height: 500px">
-                    <p class="event-name">영화4</p>
-                    <p class="event-date">2022.08.01 ~ 2022.12.31</p>
-                </div><div class="swiper-slide d-flex flex-column swiper-slide-duplicate" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="9" role="group" aria-label="10 / 15">
-                    <img src="/images/events/party5.jpg" alt="poster10" style=" height: 500px">
-                    <p class="event-name">뮤지컬5</p>
-                    <p class="event-date">2022.08.01 ~ 2022.12.31</p>
-                </div><div class="swiper-slide d-flex flex-column swiper-slide-duplicate" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="10" role="group" aria-label="11 / 15">
-                    <img src="/images/events/auction1.jpg" alt="poster11" style=" height: 500px">
-                    <p class="event-name">작품제목</p>
-                    <p class="event-date">(가격)원</p>
-                    <p class="nft-text">NFT</p>
-                </div><div class="swiper-slide d-flex flex-column swiper-slide-duplicate" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="11" role="group" aria-label="12 / 15">
-                    <img src="/images/events/auction2.jpg" alt="poster12" style=" height: 500px">
-                    <p class="event-name">작품제목</p>
-                    <p class="event-date">(가격)원</p>
-                    <p class="nft-text">NFT</p>
-                </div><div class="swiper-slide d-flex flex-column swiper-slide-duplicate" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="12" role="group" aria-label="13 / 15">
-                    <img src="/images/events/auction3.jpg" alt="poster13" style=" height: 500px">
-                    <p class="event-name">작품제목</p>
-                    <p class="event-date">(가격)원</p>
-                    <p class="nft-text">NFT</p>
-                </div><div class="swiper-slide d-flex flex-column swiper-slide-duplicate" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="13" role="group" aria-label="14 / 15">
-                    <img src="/images/events/auction4.jpg" alt="poster14" style=" height: 500px">
-                    <p class="event-name">작품제목</p>
-                    <p class="event-date">(가격)원</p>
-                    <p class="nft-text">NFT</p>
-                </div><div class="swiper-slide d-flex flex-column swiper-slide-duplicate" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="14" role="group" aria-label="15 / 15">
-                    <img src="/images/events/auction5.jpg" alt="poster15" style=" height: 500px">
-                    <p class="event-name">작품제목</p>
-                    <p class="event-date">(가격)원</p>
-                    <p class="nft-text">NFT</p>
-                </div></div>
+                
+            </div>
             <div class="swiper-button-prev swiper-btn" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-a9f75f1970175721"></div>
             <div class="swiper-button-next swiper-btn" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-a9f75f1970175721"></div>
 
@@ -804,7 +629,7 @@
 <script src="/js/jquery-2.2.4.min.js"></script>
 <script src="/js/pagination.js"></script>
 <script src="/js/templatemo.js"></script>
-<script src="/js/index.js"></script>
+<%--<script src="/js/index.js"></script>--%>
 <script src="/js/style.js"></script>
 
 </body>
