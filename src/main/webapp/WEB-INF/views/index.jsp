@@ -88,13 +88,13 @@
                         </li>
                         <li class="optionItem optionItemDown"><a href="#"
                                                                  class="optionItemA optionItemAdown"
-                                                                 lang="en">English,</a></li>
+                                                                 lang="en">English</a></li>
                         <li class="optionItem optionItemDown"><a href="#"
                                                                  class="optionItemA optionItemAdown" lang="ja">日本語</a>
                         </li>
                         <li class="optionItem optionItemDown"><a href="#"
                                                                  class="optionItemA optionItemAdown"
-                                                                 lang="zh-CN">中文简体</a></li>
+                                                                 lang="zh-CN">中文简体.</a></li>
                         <li class="optionItem optionItemDown"><a href="#"
                                                                  class="optionItemA optionItemAdown"
                                                                  lang="zh-Hant">中文繁體</a></li>
