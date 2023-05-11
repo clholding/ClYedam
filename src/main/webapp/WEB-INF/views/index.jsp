@@ -57,7 +57,7 @@
     <div class="header">
         <div class="headerWrap">
             <div id="headerLogo" class="headerSide">
-                <a href="#;" onclick="function()" class="logo_white logo_black"></a>
+                <a href="#;" onclick="onclick()" class="logo_white logo_black"></a>
             </div>
 
             <ul id="nav" class="menuList">
@@ -74,7 +74,7 @@
                     <a data-scroll="news" href="#news" class="menuText menuTextDown">아티스트</a>
                 </li>
                 <li>
-                    <a data-scroll="careers" href="#;" onclick="function()" class="menuText menuTextDown">동영상</a>
+                    <a data-scroll="careers" href="#;" onclick="onclick()" class="menuText menuTextDown">동영상</a>
                 </li>
             </ul>
 
@@ -372,7 +372,7 @@
                             eget est efficitur, elementum nunc in, ultrices eros.<br>
                             In hac habitasse platea dictumst. Praesent at im.
                         </h4>
-                        <a href="#;" onclick="function()">
+                        <a href="#;" onclick="onclick()">
                             <p>경매 보러가기</p>
                             <img src="images/icon_button_next.svg" alt="">
                         </a>
@@ -392,7 +392,7 @@
                             eget est efficitur, elementum nunc in, ultrices eros.<br>
                             In hac habitasse platea dictumst. Praesent at im.
                         </h4>
-                        <a href="#;" onclick="function()">
+                        <a href="#;" onclick="onclick()">
                             <p>예담플릭스 보러가기</p>
                             <img src="images/icon_button_next.svg" alt="">
                         </>
@@ -408,7 +408,7 @@
 
             <ul class="newsContents aos-init" data-aos="fade-up" data-aos-duration="700">
                 <li class="active">
-                    <a href="#;" onclick="function()" class="newsContentsItem">
+                    <a href="#;" onclick="onclick()" class="newsContentsItem">
                         <div class="newsContentsItemLeft">
                             <div>
                                 <b class="child">제목 영역입니다</b>
@@ -421,7 +421,7 @@
                 </li>
 
                 <li class="active">
-                    <a href="#;" onclick="function()" class="newsContentsItem">
+                    <a href="#;" onclick="onclick()" class="newsContentsItem">
                         <div class="newsContentsItemLeft">
                             <div>
                                 <b class="child">제목 영역입니다</b>
@@ -434,7 +434,7 @@
                 </li>
 
                 <li class="active">
-                    <a href="#;" onclick="function()" class="newsContentsItem">
+                    <a href="#;" onclick="onclick()" class="newsContentsItem">
                         <div class="newsContentsItemLeft">
                             <div>
                                 <b class="child">제목 영역입니다</b>
@@ -447,7 +447,8 @@
                 </li>
 
                 <li class="active">
-                    <a href="#;" onclick="function()" class="newsContentsItem">
+                    <a href="#;" onclick="onclick
+                    ()" class="newsContentsItem">
                         <div class="newsContentsItemLeft">
                             <div>
                                 <b class="child">제목 영역입니다</b>
@@ -460,7 +461,8 @@
                 </li>
 
                 <li>
-                    <a href="#;" onclick="function()" class="newsContentsItem">
+                    <a href="#;" onclick="onclick
+                    ()" class="newsContentsItem">
                         <div class="newsContentsItemLeft">
                             <div>
                                 <b class="child">제목 영역입니다</b>
@@ -473,7 +475,7 @@
                 </li>
 
                 <li>
-                    <a href="#;" onclick="function()" class="newsContentsItem">
+                    <a href="#;" onclick="onclick()" class="newsContentsItem">
                         <div class="newsContentsItemLeft">
                             <div>
                                 <b class="child">제목 영역입니다</b>
@@ -486,7 +488,7 @@
                 </li>
 
                 <li>
-                    <a href="#;" onclick="function()" class="newsContentsItem">
+                    <a href="#;" onclick="onclick()" class="newsContentsItem">
                         <div class="newsContentsItemLeft">
                             <div>
                                 <b class="child">제목 영역입니다</b>
@@ -499,7 +501,7 @@
                 </li>
 
                 <li>
-                    <a href="#;" onclick="function()" class="newsContentsItem">
+                    <a href="#;" onclick="onclick()" class="newsContentsItem">
                         <div class="newsContentsItemLeft">
                             <div>
                                 <b class="child">제목 영역입니다</b>
@@ -512,7 +514,7 @@
                 </li>
 
                 <li>
-                    <a href="#;" onclick="function()" class="newsContentsItem">
+                    <a href="#;" onclick="onclick()" class="newsContentsItem">
                         <div class="newsContentsItemLeft">
                             <div>
                                 <b class="child">제목 영역입니다</b>
@@ -525,7 +527,7 @@
                 </li>
 
                 <li>
-                    <a href="#;" onclick="function()" class="newsContentsItem">
+                    <a href="#;" onclick="onclick()" class="newsContentsItem">
                         <div class="newsContentsItemLeft">
                             <div>
                                 <b class="child">제목 영역입니다</b>
@@ -538,7 +540,7 @@
                 </li>
 
                 <li>
-                    <a href="#;" onclick="function()" class="newsContentsItem">
+                    <a href="#;" onclick="onclick()" class="newsContentsItem">
                         <div class="newsContentsItemLeft">
                             <div>
                                 <b class="child">제목 영역입니다</b>
@@ -551,7 +553,7 @@
                 </li>
 
                 <li>
-                    <a href="#;" onclick="function()" class="newsContentsItem">
+                    <a href="#;" onclick="onclick()" class="newsContentsItem">
                         <div class="newsContentsItemLeft">
                             <div>
                                 <b class="child">제목 영역입니다</b>
@@ -564,7 +566,7 @@
                 </li>
 
                 <li>
-                    <a href="#;" onclick="function()" class="newsContentsItem">
+                    <a href="#;" onclick="onclick()" class="newsContentsItem">
                         <div class="newsContentsItemLeft">
                             <div>
                                 <b class="child">제목 영역입니다</b>
@@ -576,7 +578,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#;" onclick="function()" class="newsContentsItem">
+                    <a href="#;" onclick="onclick()" class="newsContentsItem">
                         <div class="newsContentsItemLeft">
                             <div>
                                 <b class="child">제목 영역입니다</b>
@@ -588,7 +590,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#;" onclick="function()" class="newsContentsItem">
+                    <a href="#;" onclick="onclick()" class="newsContentsItem">
                         <div class="newsContentsItemLeft">
                             <div>
                                 <b class="child">제목 영역입니다</b>
@@ -600,7 +602,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#;" onclick="function()" class="newsContentsItem">
+                    <a href="#;" onclick="onclick()" class="newsContentsItem">
                         <div class="newsContentsItemLeft">
                             <div>
                                 <b class="child">제목 영역입니다</b>
@@ -632,7 +634,7 @@
                         <h3>
                             내 작품을 광고 하고 싶을 땐?
                         </h3>
-                        <a href="#;" onclick="function()" style="margin-top:0;">
+                        <a href="#;" onclick="onclick()" style="margin-top:0;">
                             <p>무료광고 문의</p>
                             <img src="images/icon_button_next.svg" alt="">
                         </a>
@@ -646,7 +648,7 @@
                     <div class="businessContentsText add">
                         <h2>예담엔터테인먼트</h2>
                         <h3>내가 만든 작품이 경매가 된다면?</h3>
-                        <a href="#;" onclick="function()" style="margin-top:0;">
+                        <a href="#;" onclick="onclick()" style="margin-top:0;">
                             <p>작품경매 문의</p>
                             <img src="images/icon_button_next.svg" alt="">
                         </a>
@@ -659,7 +661,7 @@
     <footer id="footer">
         <div class="footerWrap">
             <div class="footer-left">
-                <a href="#;" onclick="function()" class="footer-logo"></a>
+                <a href="#;" onclick="onclick()" class="footer-logo"></a>
 
                 <div class="footer-left-info-wrap">
                     <p>
@@ -672,10 +674,10 @@
             </div>
 
             <div class="footer-sns-wrap">
-                <a href="#;" onclick="function()" class="footer-sns-logo">
+                <a href="#;" onclick="onclick()" class="footer-sns-logo">
                     <img src="images/facebook.svg" alt="facebook">
                 </a>
-                <a href="#;" onclick="function()" class="footer-sns-logo">
+                <a href="#;" onclick="onclick()" class="footer-sns-logo">
                     <img src="images/linkedin-dark.svg" alt="linkedin">
                 </a>
             </div>
