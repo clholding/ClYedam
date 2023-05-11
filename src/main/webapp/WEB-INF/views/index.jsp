@@ -88,7 +88,7 @@
                         </li>
                         <li class="optionItem optionItemDown"><a href="#"
                                                                  class="optionItemA optionItemAdown"
-                                                                 lang="en">English</a></li>
+                                                                 lang="en">English.</a></li>
                         <li class="optionItem optionItemDown"><a href="#"
                                                                  class="optionItemA optionItemAdown" lang="ja">日本語</a>
                         </li>
