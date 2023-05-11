@@ -230,7 +230,7 @@
 
                 <div class="swiper-slide d-flex flex-column" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="5" role="group" aria-label="6 / 15">
                     <img src="/images/events/party1.jpg" alt="poster6" style=" height: 500px">
-                    <p class="event-name">영화1</p>
+                    <p class="event-name">영화11212</p>
                     <p class="event-date">2022.08.01 ~ 2022.12.31</p>
                 </div>
                 <div class="swiper-slide d-flex flex-column" style="width: fit-content; margin-right: 100px;" data-swiper-slide-index="6" role="group" aria-label="7 / 15">
