@@ -74,7 +74,7 @@
                     <a data-scroll="news" href="#news" class="menuText menuTextDown">아티스트</a>
                 </li>
                 <li>
-                    <a data-scroll="careers" href="#;" onclick="onClick()" class="menuText menuTextDown">동영상</a>
+                    <a data-scroll="careers" href="#;" onclick="onclick()" class="menuText menuTextDown">동영상</a>
                 </li>
             </ul>
 
@@ -136,18 +136,18 @@
         </div>
             <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="auto"
                               centered-slides="true" space-between="30" navigation="true" rewind="true" loop="true" style="">
-                <swiper-slide style="width: 21%;"><img src="/images/events/auction1.jpg" alt="poster12" style=""></swiper-slide>
-                <swiper-slide style="width: 21%;"><img src="/images/events/auction2.jpg" alt="poster12" style=""></swiper-slide>
-                <swiper-slide style="width: 21%"><img src="/images/events/auction3.jpg" alt="poster12" style=""></swiper-slide>
-                <swiper-slide style="width: 21%"><img src="/images/events/auction4.jpg" alt="poster12" style=""></swiper-slide>
-                <swiper-slide style="width: 21%"><img src="/images/events/auction1.jpg" alt="poster12" style=""></swiper-slide>
-                <swiper-slide style="width: 21%"><img src="/images/events/auction2.jpg" alt="poster12" style=""></swiper-slide>
-                <swiper-slide style="width: 21%"><img src="/images/events/auction3.jpg" alt="poster12" style=""></swiper-slide>
-                <swiper-slide style="width: 21%"><img src="/images/events/auction1.jpg" alt="poster12" style=""></swiper-slide>
-                <swiper-slide style="width: 21%"><img src="/images/events/auction2.jpg" alt="poster12" style=""></swiper-slide>
-                <swiper-slide style="width: 21%"><img src="/images/events/auction3.jpg" alt="poster12" style=""></swiper-slide>
-                <swiper-slide style="width: 21%"><img src="/images/events/auction3.jpg" alt="poster12" style=""></swiper-slide>
-                <swiper-slide style="width: 21%"><img src="/images/events/auction3.jpg" alt="poster12" style=""></swiper-slide>
+                <swiper-slide style="width: 500px;"><img src="/images/events/auction1.jpg" alt="poster12" style=""></swiper-slide>
+                <swiper-slide style="width: 500px;"><img src="/images/events/auction2.jpg" alt="poster12" style=""></swiper-slide>
+                <swiper-slide style="width: 500px"><img src="/images/events/auction3.jpg" alt="poster12" style=""></swiper-slide>
+                <swiper-slide style="width: 500px"><img src="/images/events/auction4.jpg" alt="poster12" style=""></swiper-slide>
+                <swiper-slide style="width: 500px"><img src="/images/events/auction1.jpg" alt="poster12" style=""></swiper-slide>
+                <swiper-slide style="width: 500px"><img src="/images/events/auction2.jpg" alt="poster12" style=""></swiper-slide>
+                <swiper-slide style="width: 500px"><img src="/images/events/auction3.jpg" alt="poster12" style=""></swiper-slide>
+                <swiper-slide style="width: 500px"><img src="/images/events/auction1.jpg" alt="poster12" style=""></swiper-slide>
+                <swiper-slide style="width: 500px"><img src="/images/events/auction2.jpg" alt="poster12" style=""></swiper-slide>
+                <swiper-slide style="width: 500px"><img src="/images/events/auction3.jpg" alt="poster12" style=""></swiper-slide>
+                <swiper-slide style="width: 500px"><img src="/images/events/auction3.jpg" alt="poster12" style=""></swiper-slide>
+                <swiper-slide style="width: 500px"><img src="/images/events/auction3.jpg" alt="poster12" style=""></swiper-slide>
             </swiper-container>
     </section>
 
@@ -189,7 +189,7 @@
                         <a href="#;" onclick="onClick()">
                             <p>예담플릭스 보러가기</p>
                             <img src="images/icon_button_next.svg" alt="">
-                        </>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -596,7 +596,7 @@
 <script src="/js/jquery-2.2.4.min.js"></script>
 <script src="/js/pagination.js"></script>
 <script src="/js/templatemo.js"></script>
-<script src="/js/index.js"></script>
+<%--<script src="/js/index.js"></script>--%>
 <script src="/js/style.js"></script>
 
 </body>
