@@ -1,3 +1,4 @@
+/*
 package com.ast.clYedam.controller.api;
 
 import com.ast.clYedam.A1Member.vo.UserVo;
@@ -46,3 +47,4 @@ public class UserController {
     }
 
 }
+*/
