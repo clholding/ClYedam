@@ -42,11 +42,6 @@ public class BaseController {
     public String signUp() {
         return "signUp";
     }
-    @RequestMapping("/test")
-    public String test() {
-        return "test";
-    }
-
     @RequestMapping("/login")
     public String login() {
         return "login";
