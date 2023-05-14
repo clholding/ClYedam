@@ -1,5 +1,7 @@
 package com.ast.clYedam.config;
 
+import com.ast.clYedam.commonAccount.CustomAuthenticationFailureHandler;
+import com.ast.clYedam.commonAccount.CustomAuthenticationSuccessHandler;
 import com.ast.clYedam.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -9,6 +11,7 @@ import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 import javax.sql.DataSource;
 
@@ -17,31 +20,50 @@ import javax.sql.DataSource;
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     private UserService userService;
+    @Autowired
+    private CustomAuthenticationSuccessHandler authenticationSuccessHandler;
+    @Autowired
+    private CustomAuthenticationFailureHandler authenticationFailureHandler;
 
     private DataSource dataSource;
+
+    //    (임시?)테스트용 유저 이후 삭제
+    @Autowired
+    public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
+        auth
+                .inMemoryAuthentication()
+                .withUser("1")
+                .password("{noop}1")
+                .roles("USER");
+//                .roles("ROLE_ADMIN");
+    }
 
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
-                .authorizeRequests()
-                .antMatchers("/login*", "/performLogin*", "/signUp","/login_proc","/sec/**", "/").permitAll()
-//                .antMatchers("/admin").hasRole("admin")
-//                .anyRequest().authenticated();  // 인증요청 여부
-        ;
-//        csrf 설정
-        http.csrf().disable();
-        // login
-/*        http.formLogin()
-                .loginPage("/login").permitAll()
-                .loginProcessingUrl("/login_proc").permitAll()
-                .defaultSuccessUrl("/", true)
-                .failureUrl("/login?MSG=LoginFail")
+            .authorizeRequests()
+                .antMatchers("/signUp","/loginSubmit", "/login").permitAll()
+                .antMatchers("/").authenticated()
+                .anyRequest().permitAll();
+
+        http
+                .formLogin()
+                .loginPage("/login")
+                .loginProcessingUrl("/loginSubmit")
+                .usernameParameter("username")
+                .passwordParameter("password")
+                .successHandler(authenticationSuccessHandler)
+                .defaultSuccessUrl("/")
                 .permitAll();
-        http.logout()
+
+
+        http    .logout()
                 .logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
-                .logoutSuccessUrl("/");*/
-        ;
+                .logoutSuccessUrl("/admin")
+                .invalidateHttpSession(true);
+
+        http.csrf().disable();
     }
 
     @Override
