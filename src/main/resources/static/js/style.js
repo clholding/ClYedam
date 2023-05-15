@@ -100,7 +100,7 @@ $(function() {
     const $logo = $('.logo_white');
     const $menu = $('.icon_24_menu');
     const $lang = $('.language_white');
-    const $page = $('#company');
+    const $page = $('#business');
     const $label = $('.label');
     const $downIcon = $('.dropDownIcon');
     const $optionList = $('.optionList');
