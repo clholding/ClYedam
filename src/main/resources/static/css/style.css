@@ -1632,6 +1632,7 @@ video::-webkit-media-controls-start-playback-button {
     .addArea{margin-top:60px;}
 
     .newsWrap {
+        margin-top: 140px;
         width: 100%;
         flex-direction: column;
         align-items: center;
