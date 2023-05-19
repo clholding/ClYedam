@@ -1441,6 +1441,8 @@ video::-webkit-media-controls-start-playback-button {
     align-items: center;
 }
 
+.businessContentsText{position:relative;}
+
 .businessContentsText h2 {
     color: var(--system1);
     font-size: var(--fontTitle);
@@ -1464,7 +1466,7 @@ video::-webkit-media-controls-start-playback-button {
 }
 
 .businessContentsText > a {
-    width: 220px;
+    width: 176px;
     height: 64px;
     background-color: var(--system1);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
@@ -1482,6 +1484,8 @@ video::-webkit-media-controls-start-playback-button {
     font-size: var(--fontH4);
     font-weight: bold;
 }
+
+.businessContentsText > a.consult_btn{width:220px; position:absolute; bottom:0; left:200px;}
 
 .add > h2{margin-top:-67px;}
 
@@ -1565,6 +1569,8 @@ video::-webkit-media-controls-start-playback-button {
         border-radius: 58px;
         /* margin-top: 40px; */
     }
+
+    .businessContentsText > a.consult_btn{position:inherit; bottom:inherit; left:inherit;}
 }
 
 @media (max-width: 540px) {

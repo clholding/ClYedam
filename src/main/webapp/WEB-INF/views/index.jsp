@@ -154,7 +154,11 @@
                             아이들에게 적극 추천 드립니다.
                         </h4>
                         <a href="#;" onclick="onClick()">
-                            <p>레슨 신청하기</p>
+                            <p>레슨 신청</p>
+                            <img src="images/icon_button_next.svg" alt="">
+                        </a>
+                        <a href="#;" onclick="onClick()" class="consult_btn" style="width:220px; margin-top:20px;">
+                            <p>유학 컨설팅 신청</p>
                             <img src="images/icon_button_next.svg" alt="">
                         </a>
                     </div>
@@ -174,7 +178,11 @@
                             레슨코리아가 함께 하겠습니다.
                         </h4>
                         <a href="#;" onclick="onClick()">
-                            <p>레슨 신청하기</p>
+                            <p>레슨 신청</p>
+                            <img src="images/icon_button_next.svg" alt="">
+                        </a>
+                        <a href="#;" onclick="onClick()" class="consult_btn" style="width:220px; margin-top:20px;">
+                            <p>유학 컨설팅 신청</p>
                             <img src="images/icon_button_next.svg" alt="">
                         </a>
                     </div>
