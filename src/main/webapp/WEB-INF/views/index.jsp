@@ -14,6 +14,9 @@
     <link rel="icon" type="image/png" sizes="16x16" href="https://www.nuua.ai/ko/favicon/favicon-16x16.png">
     <%--    <link rel="manifest" href="https://www.nuua.ai/ko/favicon/site.webmanifest">--%>
     <link rel="mask-icon" href="https://www.nuua.ai/ko/favicon/safari-pinned-tab.svg" color="#111D2D">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/custom.css">
@@ -49,11 +52,11 @@
           content="누아, nuua, 트래블테크, 항공 유통, NDC - 항공, 항공권, 여행, 해외여행, 국내여행, 여행지도, 맛집지도, 여행어플, 스타트업, 인공지능, AI, 빅데이터, NDC Aggregator">
     <meta name="description"
           content="NDC·GDS·LCC 통합 항공 솔루션부터 준비 없이 떠나는 여행을 위한 앱까지, 누아는 빅데이터와 인공지능 기술로 여행시장을 혁신하고 있습니다.">
-    <title>예담 YEDAM | Entertainment &amp; Management</title>
+    <title>레슨코리아 LESSON KOREA | 선택! 세상을 만드는 힘!</title>
 </head>
 
 <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
-<div class="container">
+<div class="main_container">
     <div class="header">
         <div class="headerWrap">
             <div id="headerLogo" class="headerSide">
@@ -62,19 +65,25 @@
 
             <ul id="nav" class="menuList">
                 <li>
-                    <a data-scroll="company" href="#company" class="menuText menuTextDown">전시회</a>
+                    <a data-scroll="company" href="#" class="menuText menuTextDown">레슨 안내</a>
                 </li>
                 <li>
-                    <a data-scroll="business" href="#business" class="menuText menuTextDown active">경매</a>
+                    <a data-scroll="business" href="#" class="menuText menuTextDown active">레슨쌤 소개</a>
                 </li>
                 <li>
-                    <a data-scroll="business_02" href="#business_02" class="menuText menuTextDown">예담플릭스</a>
+                    <a data-scroll="business_02" href="#" class="menuText menuTextDown">안전방문 레슨 신청</a>
                 </li>
                 <li>
-                    <a data-scroll="news" href="#news" class="menuText menuTextDown">아티스트</a>
+                    <a data-scroll="news" href="#" class="menuText menuTextDown">장소 대관</a>
                 </li>
                 <li>
-                    <a data-scroll="careers" href="#;" onclick="onclick()" class="menuText menuTextDown">동영상</a>
+                    <a data-scroll="careers" href="#;" onclick="onclick()" class="menuText menuTextDown">법률 상담</a>
+                </li>
+                <li>
+                    <a data-scroll="careers" href="#;" onclick="onclick()" class="menuText menuTextDown">레슨 목록</a>
+                </li>
+                <li>
+                    <a data-scroll="careers" href="#;" onclick="onclick()" class="menuText menuTextDown">쌤 프로필 등록</a>
                 </li>
             </ul>
 
@@ -113,61 +122,39 @@
                 <div class="icon_24_menu icon_24_menu_black" onclick="menuOpen()"></div>
             </div>
         </div>
+
     </div>
 
     <section id="banner">
+        <div class="bn-input-group">
+            <input type="text" class="form-control" placeholder="검색 키워드를 입력하세요!">
+            <span class="bn-input-group-btn">
+                <button class="btn bn-btn-secondary" type="button">찾기</button>
+            </span>
+        </div>
         <div class="bg">
-                <img src="images/main_bg.png" alt="" class="main_bg main_bg_web">
+                <img src="images/main_banner.jpg" alt="" class="main_bg main_bg_web">
                 <img src="images/main_bg_m.png" alt="" class="main_bg main_bg_mobile">
             </video>
         </div>
     </section>
 
-    <section id="company">
-        <div class="companyTextWrap">
-            <h2>
-                내 지역 근처 축제, 최신 문화 행사 및<br>
-                경매를 확인해 보세요!
-            </h2>
-            <h3>
-                Lorem ipsum dolor sit amet, consectetur adipiscing<br>
-                elit. Phasellus iaculis hendrerit rhoncus.
-            </h3>
-        </div>
-            <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="auto"
-                              centered-slides="true" space-between="30" navigation="true" rewind="true" loop="true" style="">
-                <swiper-slide style="width: 500px;"><img src="/images/events/auction1.jpg" alt="poster12" style=""></swiper-slide>
-                <swiper-slide style="width: 500px;"><img src="/images/events/auction2.jpg" alt="poster12" style=""></swiper-slide>
-                <swiper-slide style="width: 500px"><img src="/images/events/auction3.jpg" alt="poster12" style=""></swiper-slide>
-                <swiper-slide style="width: 500px"><img src="/images/events/auction4.jpg" alt="poster12" style=""></swiper-slide>
-                <swiper-slide style="width: 500px"><img src="/images/events/auction1.jpg" alt="poster12" style=""></swiper-slide>
-                <swiper-slide style="width: 500px"><img src="/images/events/auction2.jpg" alt="poster12" style=""></swiper-slide>
-                <swiper-slide style="width: 500px"><img src="/images/events/auction3.jpg" alt="poster12" style=""></swiper-slide>
-                <swiper-slide style="width: 500px"><img src="/images/events/auction1.jpg" alt="poster12" style=""></swiper-slide>
-                <swiper-slide style="width: 500px"><img src="/images/events/auction2.jpg" alt="poster12" style=""></swiper-slide>
-                <swiper-slide style="width: 500px"><img src="/images/events/auction3.jpg" alt="poster12" style=""></swiper-slide>
-                <swiper-slide style="width: 500px"><img src="/images/events/auction3.jpg" alt="poster12" style=""></swiper-slide>
-                <swiper-slide style="width: 500px"><img src="/images/events/auction3.jpg" alt="poster12" style=""></swiper-slide>
-            </swiper-container>
-    </section>
-
     <section id="business">
         <div class="businessWrap">
             <div class="businessSection">
-                <h2>BUSINESS</h2>
+                <h2>추천 레슨</h2>
                 <div class="businessContents businessContentsPad">
                     <div class="businessContentsText">
-                        <h2>경매</h2>
+                        <h2>어린이 축구</h2>
                         <h3>
-                            내가 만든 작품이 경매가 된다면?
+                            우리 아이의 자신감을 원한다면?
                         </h3>
-                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing<br>
-                            elit. Phasellus iaculis hendrerit rhoncus. Quisque<br>
-                            eget est efficitur, elementum nunc in, ultrices eros.<br>
-                            In hac habitasse platea dictumst. Praesent at im.
+                        <h4>쉽고 안전하고 재미있게 배울 수 있는 어린이 축구 레슨입니다.<br>
+                            짧은 기간 축구에 대한 자신감과 흥미를 얻고 싶은 학부모님과<br>
+                            아이들에게 적극 추천 드립니다.
                         </h4>
                         <a href="#;" onclick="onClick()">
-                            <p>경매 보러가기</p>
+                            <p>레슨 신청하기</p>
                             <img src="images/icon_button_next.svg" alt="">
                         </a>
                     </div>
@@ -178,16 +165,16 @@
                 <div class="businessContents">
                     <div class="mockup_phone_png aos-init" data-aos="fade-up" data-aos-duration="1000"></div>
                     <div class="businessContentsText">
-                        <h2>예담플릭스</h2>
-                        <h3>영화, 공연, 연극, 이슈를 한 눈에!</h3>
+                        <h2>어린이 야구</h2>
+                        <h3>운동에 대한 두려움이 있다면?</h3>
                         <h4>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing<br>
-                            elit. Phasellus iaculis hendrerit rhoncus. Quisque<br>
-                            eget est efficitur, elementum nunc in, ultrices eros.<br>
-                            In hac habitasse platea dictumst. Praesent at im.
+                            운동을 두려워하는 아이라면 전문가에게 정확히 배우고,<br>
+                            건강하게 운동할 수 있도록 쉽게 코칭해 드립니다.<br>
+                            우리 아이의 평생의 자산이 될 수 있는 자신감 있는 플레이를 위해<br>
+                            레슨코리아가 함께 하겠습니다.
                         </h4>
                         <a href="#;" onclick="onClick()">
-                            <p>예담플릭스 보러가기</p>
+                            <p>레슨 신청하기</p>
                             <img src="images/icon_button_next.svg" alt="">
                         </a>
                     </div>
@@ -196,19 +183,149 @@
         </div>
     </section>
 
+    <section id="company">
+        <div class="companyTextWrap">
+            <h2>
+                새로운 레슨
+            </h2>
+            <h3>
+                레슨코리아의 새로운 레슨을 만나보세요.
+            </h3>
+        </div>
+
+        <div class="album py-5 bg-light">
+            <div class="container">
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="card shadow-sm">
+                            <img src="images/new_img_1.jpg" class="">
+                            <div class="card-body">
+                                <p class="card-text">카메라 촬영</p>
+                                <p class="card-text-des">인생사진 남기기! 레슨 하나로 이제 어렵지 않아요.</p>
+                                <div class="d-flex align-items-center">
+                                    <small class="text-muted">조회수<span class="number">4817</span></small>
+                                    <small class="text-muted">좋아요<span class="number">200</span></small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="card shadow-sm">
+                            <img src="images/new_img_2.jpg" class="">
+                            <div class="card-body">
+                                <p class="card-text">영어</p>
+                                <p class="card-text-des">공부는 하고 싶은데 비용이 부담스러울 때 여기로 오세요. 공부는 하고 싶은데</p>
+                                <div class="d-flex align-items-center">
+                                    <small class="text-muted">조회수<span class="number">4817</span></small>
+                                    <small class="text-muted">좋아요<span class="number">200</span></small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="card shadow-sm">
+                            <img src="images/new_img_3.jpg" class="">
+                            <div class="card-body">
+                                <p class="card-text">수학</p>
+                                <p class="card-text-des">월, 수, 금. 주 3회로 수학에 대한 자신감을 키워드립니다.</p>
+                                <div class="d-flex align-items-center">
+                                    <small class="text-muted">조회수<span class="number">4817</span></small>
+                                    <small class="text-muted">좋아요<span class="number">200</span></small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="card shadow-sm">
+                            <img src="images/new_img_4.jpg" class="">
+                            <div class="card-body">
+                                <p class="card-text">국어</p>
+                                <p class="card-text-des">전문가와 함께 재미있게 국어를 배워요!</p>
+                                <div class="d-flex align-items-center">
+                                    <small class="text-muted">조회수<span class="number">201</span></small>
+                                    <small class="text-muted">좋아요<span class="number">33</span></small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="card shadow-sm">
+                            <img src="images/new_img_5.jpg" class="">
+                            <div class="card-body">
+                                <p class="card-text">악기 레슨</p>
+                                <p class="card-text-des">장기하나 준비하기 어렵지 않아요. 왕초보도 가능한···</p>
+                                <div class="d-flex align-items-center">
+                                    <small class="text-muted">조회수<span class="number">0</span></small>
+                                    <small class="text-muted">좋아요<span class="number">0</span></small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="card shadow-sm">
+                            <img src="images/new_img_6.jpg" class="">
+                            <div class="card-body">
+                                <p class="card-text">쿠킹 레슨</p>
+                                <p class="card-text-des">단기간에 요리 실력 UP UP!</p>
+                                <div class="d-flex align-items-center">
+                                    <small class="text-muted">조회수<span class="number">4817</span></small>
+                                    <small class="text-muted">좋아요<span class="number">200</span></small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="new_btn_area">
+                    <div class="new_go_btn"><a href="#;" onclick="onclick()">
+                        새로운 레슨 더보기<%--<img src="images/pagination-next.svg" alt="">--%>
+                    </a></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
     <section id="news">
         <div class="newsWrap">
-            <h2>아티스트 모집</h2>
+            <h2>공지사항</h2>
 
             <ul class="newsContents aos-init" data-aos="fade-up" data-aos-duration="700">
                 <li class="active">
                     <a href="#;" onclick="onClick()" class="newsContentsItem">
                         <div class="newsContentsItemLeft">
                             <div>
-                                <b class="child">제목 영역입니다</b>
-                                <h5 class="child">부가 설명 영역입니다</h5>
+                                <b class="child">어린이 축구 프로그램 신설</b>
+                                <h5 class="child">2023-05-16</h5>
                             </div>
-                            <h4 class="child">아티스트 모집합니다. 많은 지원 부탁드립니다. 아티스트 모집합니다. 많은 지원 부탁드립니다.</h4>
+                            <h4 class="child">새로운 어린이 축구 프로그램이 신설되었습니다. 시간표를 첨부하니 많은 관심 부탁드립니다. 새로운 어린이 축구 프로그램이 신설되었습니다. 시간표···</h4>
+                        </div>
+                        <div class="icon_40_arrow"></div>
+                    </a>
+                </li>
+
+                <li class="active">
+                    <a href="#;" onclick="onClick()" class="newsContentsItem">
+                        <div class="newsContentsItemLeft">
+                            <div>
+                                <b class="child">안전한 교육</b>
+                                <h5 class="child">2023-03-16</h5>
+                            </div>
+                            <h4 class="child">저희 레슨코리아는 방문캠으로부터 안전한 교육을 만듭니다.</h4>
+                        </div>
+                        <div class="icon_40_arrow"></div>
+                    </a>
+                </li>
+
+                <li class="active">
+                    <a href="#;" onclick="onClick()" class="newsContentsItem">
+                        <div class="newsContentsItemLeft">
+                            <div>
+                                <b class="child">2023년 교육 목록</b>
+                                <h5 class="child">2022-12-28</h5>
+                            </div>
+                            <h4 class="child">내용 영역입니다. 내용 영역입니다. 내용 영역입니다. 내용 영역입니다. 내용 영역입니다.</h4>
                         </div>
                         <div class="icon_40_arrow"></div>
                     </a>
@@ -219,35 +336,9 @@
                         <div class="newsContentsItemLeft">
                             <div>
                                 <b class="child">제목 영역입니다</b>
-                                <h5 class="child">부가 설명 영역입니다</h5>
+                                <h5 class="child">날짜 영역입니다</h5>
                             </div>
-                            <h4 class="child">아티스트 모집합니다. 많은 지원 부탁드립니다. 아티스트 모집합니다. 많은 지원 부탁드립니다.</h4>
-                        </div>
-                        <div class="icon_40_arrow"></div>
-                    </a>
-                </li>
-
-                <li class="active">
-                    <a href="#;" onclick="onClick()" class="newsContentsItem">
-                        <div class="newsContentsItemLeft">
-                            <div>
-                                <b class="child">제목 영역입니다</b>
-                                <h5 class="child">부가 설명 영역입니다</h5>
-                            </div>
-                            <h4 class="child">아티스트 모집합니다. 많은 지원 부탁드립니다.</h4>
-                        </div>
-                        <div class="icon_40_arrow"></div>
-                    </a>
-                </li>
-
-                <li class="active">
-                    <a href="#;" onclick="onClick()" class="newsContentsItem">
-                        <div class="newsContentsItemLeft">
-                            <div>
-                                <b class="child">제목 영역입니다</b>
-                                <h5 class="child">부가 설명 영역입니다</h5>
-                            </div>
-                            <h4 class="child">아티스트 모집합니다. 많은 지원 부탁드립니다.</h4>
+                            <h4 class="child">내용 영역입니다. 내용 영역입니다. 내용 영역입니다. 내용 영역입니다. 내용 영역입니다.</h4>
                         </div>
                         <div class="icon_40_arrow"></div>
                     </a>
@@ -258,9 +349,9 @@
                         <div class="newsContentsItemLeft">
                             <div>
                                 <b class="child">제목 영역입니다</b>
-                                <h5 class="child">부가 설명 영역입니다</h5>
+                                <h5 class="child">날짜 영역입니다</h5>
                             </div>
-                            <h4 class="child">아티스트 모집합니다. 많은 지원 부탁드립니다.</h4>
+                            <h4 class="child">내용 영역입니다. 내용 영역입니다. 내용 영역입니다. 내용 영역입니다. 내용 영역입니다.</h4>
                         </div>
                         <div class="icon_40_arrow"></div>
                     </a>
@@ -271,9 +362,9 @@
                         <div class="newsContentsItemLeft">
                             <div>
                                 <b class="child">제목 영역입니다</b>
-                                <h5 class="child">부가 설명 영역입니다</h5>
+                                <h5 class="child">날짜 영역입니다</h5>
                             </div>
-                            <h4 class="child">아티스트 모집합니다. 많은 지원 부탁드립니다.</h4>
+                            <h4 class="child">내용 영역입니다. 내용 영역입니다. 내용 영역입니다. 내용 영역입니다. 내용 영역입니다.</h4>
                         </div>
                         <div class="icon_40_arrow"></div>
                     </a>
@@ -284,9 +375,9 @@
                         <div class="newsContentsItemLeft">
                             <div>
                                 <b class="child">제목 영역입니다</b>
-                                <h5 class="child">부가 설명 영역입니다</h5>
+                                <h5 class="child">날짜 영역입니다</h5>
                             </div>
-                            <h4 class="child">아티스트 모집합니다. 많은 지원 부탁드립니다.</h4>
+                            <h4 class="child">내용 영역입니다. 내용 영역입니다. 내용 영역입니다. 내용 영역입니다. 내용 영역입니다.</h4>
                         </div>
                         <div class="icon_40_arrow"></div>
                     </a>
@@ -297,9 +388,9 @@
                         <div class="newsContentsItemLeft">
                             <div>
                                 <b class="child">제목 영역입니다</b>
-                                <h5 class="child">부가 설명 영역입니다</h5>
+                                <h5 class="child">날짜 영역입니다</h5>
                             </div>
-                            <h4 class="child">아티스트 모집합니다. 많은 지원 부탁드립니다.</h4>
+                            <h4 class="child">내용 영역입니다. 내용 영역입니다. 내용 영역입니다. 내용 영역입니다. 내용 영역입니다.</h4>
                         </div>
                         <div class="icon_40_arrow"></div>
                     </a>
@@ -310,9 +401,9 @@
                         <div class="newsContentsItemLeft">
                             <div>
                                 <b class="child">제목 영역입니다</b>
-                                <h5 class="child">부가 설명 영역입니다</h5>
+                                <h5 class="child">날짜 영역입니다</h5>
                             </div>
-                            <h4 class="child">아티스트 모집합니다. 많은 지원 부탁드립니다. 아티스트 모집합니다. 많은 지원 부탁드립니다.</h4>
+                            <h4 class="child">내용 영역입니다. 내용 영역입니다. 내용 영역입니다. 내용 영역입니다. 내용 영역입니다.</h4>
                         </div>
                         <div class="icon_40_arrow"></div>
                     </a>
@@ -323,9 +414,9 @@
                         <div class="newsContentsItemLeft">
                             <div>
                                 <b class="child">제목 영역입니다</b>
-                                <h5 class="child">부가 설명 영역입니다</h5>
+                                <h5 class="child">날짜 영역입니다</h5>
                             </div>
-                            <h4 class="child">아티스트 모집합니다. 많은 지원 부탁드립니다. 아티스트 모집합니다. 많은 지원 부탁드립니다.</h4>
+                            <h4 class="child">내용 영역입니다. 내용 영역입니다. 내용 영역입니다. 내용 영역입니다. 내용 영역입니다.</h4>
                         </div>
                         <div class="icon_40_arrow"></div>
                     </a>
@@ -336,9 +427,9 @@
                         <div class="newsContentsItemLeft">
                             <div>
                                 <b class="child">제목 영역입니다</b>
-                                <h5 class="child">부가 설명 영역입니다</h5>
+                                <h5 class="child">날짜 영역입니다</h5>
                             </div>
-                            <h4 class="child">아티스트 모집합니다. 많은 지원 부탁드립니다. 아티스트 모집합니다. 많은 지원 부탁드립니다.</h4>
+                            <h4 class="child">내용 영역입니다. 내용 영역입니다.</h4>
                         </div>
                         <div class="icon_40_arrow"></div>
                     </a>
@@ -349,9 +440,9 @@
                         <div class="newsContentsItemLeft">
                             <div>
                                 <b class="child">제목 영역입니다</b>
-                                <h5 class="child">부가 설명 영역입니다</h5>
+                                <h5 class="child">날짜 영역입니다</h5>
                             </div>
-                            <h4 class="child">아티스트 모집합니다. 많은 지원 부탁드립니다. 아티스트 모집합니다. 많은 지원 부탁드립니다.</h4>
+                            <h4 class="child">내용 영역입니다.</h4>
                         </div>
                         <div class="icon_40_arrow"></div>
                     </a>
@@ -362,9 +453,9 @@
                         <div class="newsContentsItemLeft">
                             <div>
                                 <b class="child">제목 영역입니다</b>
-                                <h5 class="child">부가 설명 영역입니다</h5>
+                                <h5 class="child">날짜 영역입니다</h5>
                             </div>
-                            <h4 class="child">아티스트 모집합니다. 많은 지원 부탁드립니다.</h4>
+                            <h4 class="child">내용 영역입니다. 내용 영역입니다. 내용 영역입니다. 내용 영역입니다. 내용 영역입니다.</h4>
                         </div>
                         <div class="icon_40_arrow"></div>
                     </a>
@@ -374,9 +465,9 @@
                         <div class="newsContentsItemLeft">
                             <div>
                                 <b class="child">제목 영역입니다</b>
-                                <h5 class="child">부가 설명 영역입니다</h5>
+                                <h5 class="child">날짜 영역입니다</h5>
                             </div>
-                            <h4 class="child">아티스트 모집합니다. 많은 지원 부탁드립니다.</h4>
+                            <h4 class="child">내용 영역입니다. 내용 영역입니다. 내용 영역입니다. 내용 영역입니다. 내용 영역입니다.</h4>
                         </div>
                         <div class="icon_40_arrow"></div>
                     </a>
@@ -386,9 +477,9 @@
                         <div class="newsContentsItemLeft">
                             <div>
                                 <b class="child">제목 영역입니다</b>
-                                <h5 class="child">부가 설명 영역입니다</h5>
+                                <h5 class="child">날짜 영역입니다</h5>
                             </div>
-                            <h4 class="child">아티스트 모집합니다. 많은 지원 부탁드립니다.</h4>
+                            <h4 class="child">내용 영역입니다. 내용 영역입니다. 내용 영역입니다. 내용 영역입니다.</h4>
                         </div>
                         <div class="icon_40_arrow"></div>
                     </a>
@@ -398,9 +489,9 @@
                         <div class="newsContentsItemLeft">
                             <div>
                                 <b class="child">제목 영역입니다</b>
-                                <h5 class="child">부가 설명 영역입니다</h5>
+                                <h5 class="child">날짜 영역입니다</h5>
                             </div>
-                            <h4 class="child">아티스트 모집합니다. 많은 지원 부탁드립니다.</h4>
+                            <h4 class="child">내용 영역입니다. 내용 영역입니다. 내용 영역입니다.</h4>
                         </div>
                         <div class="icon_40_arrow"></div>
                     </a>
@@ -422,12 +513,15 @@
                 <h2>CONTACT</h2>
                 <div class="businessContents businessContentsPad">
                     <div class="businessContentsText add">
-                        <h2>티켓데이 365</h2>
+                        <h2>레슨 신청&amp;문의</h2>
                         <h3>
-                            내 작품을 광고 하고 싶을 땐?
+                            다양한 장르를 배우고 싶다면?
                         </h3>
-                        <a href="#;" onclick="onClick()" style="margin-top:0;">
-                            <p>무료광고 문의</p>
+                        <h4>안전방문 레슨신청에서 간편하게 견적을 제출하면<br>
+                            선생님과 자동 매칭 시켜드립니다!
+                        </h4>
+                        <a href="#;" onclick="onClick()">
+                            <p>레슨 신청&amp;문의</p>
                             <img src="images/icon_button_next.svg" alt="">
                         </a>
                     </div>
@@ -438,10 +532,13 @@
                 <div class="businessContents">
                     <div class="yedam-banner mockup_phone_png aos-init" data-aos="fade-up" data-aos-duration="1000"></div>
                     <div class="businessContentsText add">
-                        <h2>예담엔터테인먼트</h2>
-                        <h3>내가 만든 작품이 경매가 된다면?</h3>
-                        <a href="#;" onclick="onClick()" style="margin-top:0;">
-                            <p>작품경매 문의</p>
+                        <h2>선생님 신청</h2>
+                        <h3>레슨코리아 선생님이 되고 싶다면?</h3>
+                        <h4>레슨코리아는 1:1 레슨을 포함한 다양한 분야의 전문가 선생님을<br>
+                            모집하고 있습니다.
+                        </h4>
+                        <a href="#;" onclick="onClick()">
+                            <p>레슨썜 신청</p>
                             <img src="images/icon_button_next.svg" alt="">
                         </a>
                     </div>
@@ -450,28 +547,92 @@
         </div>
     </section>
 
+    <section id="event">
+        <div class="companyTextWrap">
+            <h2>명장면 갤러리</h2>
+        </div>
+        <div class="pointList">
+            <a href="#;" onclick="onclick()"><div class="pointListItem aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                <div class="icon_120_trophy"></div>
+                <div class="pointListItemText">
+                    <div>
+                        <h2>축구 레슨 최고의 순간</h2>
+                    </div>
+                    <h4>
+                        5월 축구 레슨의 최고의 순간을<br>
+                        찰칵-!5월 축구 레슨의 최고의<br>
+                        순간을 찰칵-!
+                    </h4>
+                </div>
+            </div></a>
+            <a href="#;" onclick="onclick()"><div class="pointListItem aos-init aos-animate" data-aos="fade-up" data-aos-duration="1200">
+                <div class="icon_120_award"></div>
+                <div class="pointListItemText">
+                    <div>
+                        <h2>명장명 제목입니다.</h2>
+                    </div>
+                    <h4>
+                        명장명 내용입니다.<br>
+                        명장명 내용입니다.
+                    </h4>
+                </div>
+            </div></a>
+            <a href="#;" onclick="onclick()"><div class="pointListItem aos-init aos-animate" data-aos="fade-up" data-aos-duration="1400">
+                <div class="icon_120_pin"></div>
+                <div class="pointListItemText">
+                    <div>
+                        <h2>멋진 드리블 실력!</h2>
+                    </div>
+                    <h4>
+                        명장명 내용입니다.<br>
+                        명장명 내용입니다. 명장면 내용입니다.
+                    </h4>
+                </div>
+            </div></a>
+            <a href="#;" onclick="onclick()"><div class="pointListItem aos-init aos-animate" data-aos="fade-up" data-aos-duration="1400">
+                <div class="icon_120_pin_2"></div>
+                <div class="pointListItemText">
+                    <div>
+                        <h2>명장면 제목입니다.</h2>
+                    </div>
+                    <h4>
+                        명장면 내용입니다.
+                    </h4>
+                </div>
+            </div></a>
+        </div>
+    </section>
+
+    <section id="sub_company">
+        <div class="companyTextWrap">
+            <h2>자회사 사이트</h2>
+            <img src="images/sub_company_img.jpg" alt="자회사 사이트 로고 이미지" class="sub_company_img">
+        </div>
+    </section>
+
     <footer id="footer">
         <div class="footerWrap">
             <div class="footer-left">
                 <a href="#;" onclick="onClick()" class="footer-logo"></a>
-
                 <div class="footer-left-info-wrap">
                     <p>
-                        COMPANY. 예담엔터테인먼트 | OWNER. 정종남 | PRIVACY MANAGER. 김도은<br>
-                        ADDRESS. 경기도 화성시 병점중앙로 230-12 (진안동)<br>
-                        CUSTOMER CENTER. 1522-4846<br>
-                        COPYRIGHT © 예담엔터테인먼트 Corporation. ALL RIGHT RESERVED
+                        <a href="#;" onclick="onClick()" style="color:black; display:inline-block; margin-right:20px;">회사 소개</a>
+                        <a href="#;" onclick="onClick()" style="color:black; display:inline-block; margin-right:20px;">개인정보처리방침</a>
+                        <a href="#;" onclick="onClick()" style="color:black; display:inline-block; margin-bottom:10px;">서비스 이용약관</a>
+                    </p>
+                    <p>
+                        사명. (주)레슨코리아 | 대표이사. 정종남 | 사업자번호 : 237-88-01744<br>
+                        주소. 경기도 화성시 병점중앙로 230-12 2층(진안동)<br>
+                        고객센터. 1522-4846 | Email : clmedia457@gmail.com<br>
+                        COPYRIGHT © 레슨코리아 Corporation. ALL RIGHT RESERVED
                     </p>
                 </div>
             </div>
 
-            <div class="footer-sns-wrap">
-                <a href="#;" onclick="onClick()" class="footer-sns-logo">
-                    <img src="images/facebook.svg" alt="facebook">
-                </a>
-                <a href="#;" onclick="onClick()" class="footer-sns-logo">
-                    <img src="images/linkedin-dark.svg" alt="linkedin">
-                </a>
+            <div class="go_btn_area">
+                <div class="go_btn"><a href="#;" onclick="onclick()">
+                    C&amp;L 미디어 컴퍼니 그룹<%--<img src="images/pagination-next.svg" alt="">--%>
+                </a></div>
             </div>
         </div>
     </footer>
@@ -481,16 +642,25 @@
 <div id="mobileNav">
     <ul>
         <li>
-            <a href="#" onclick="menuClose()">전시회</a>
+            <a href="#;" onclick="menuClose()">레슨 안내</a>
         </li>
         <li>
-            <a href="#" onclick="menuClose()">경매</a>
+            <a href="#;" onclick="menuClose()">레슨쌤 소개</a>
         </li>
         <li>
-            <a href="#" onclick="menuClose()">예담플릭스</a>
+            <a href="#;" onclick="menuClose()">안전방문 레슨 신청</a>
         </li>
         <li>
-            <a href="#" onclick="menuClose()">아티스트</a>
+            <a href="#;" onclick="menuClose()">장소 대관</a>
+        </li>
+        <li>
+            <a href="#;" onclick="menuClose()">법률 상담</a>
+        </li>
+        <li>
+            <a href="#;" onclick="menuClose()">레슨 목록</a>
+        </li>
+        <li>
+            <a href="#;" onclick="menuClose()">쌤 프로필 등록</a>
         </li>
     </ul>
     <div class="icon_24_ex" onclick="menuClose()"></div>
