@@ -43,7 +43,7 @@
     <label for="user-tel">Phone number</label>
     <input type="text" id="user-tel" name="USER_TEL" placeholder="휴대폰 번호를 입력해 주세요.">
 
-    <input type="button" value="Sign Up" class="sign_up_btn">
+    <input type="button" value="Sign Up" class="sign_up_btn" onclick="saveUser()">
 </form>
 
 <script src="/js/jquery.min.js"></script>

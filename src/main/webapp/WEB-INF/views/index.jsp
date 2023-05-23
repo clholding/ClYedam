@@ -104,7 +104,7 @@
 
             <div class="headerSideRight_02">
                 <div class="selectBox">
-                    <button class="label labelDown login">로그인</button>
+                    <button class="label labelDown login" onclick="window.location.href='/login';">로그인</button>
                 </div>
             </div>
 
@@ -151,7 +151,7 @@
             </swiper-container>
     </section>
 
-    <section id="business">
+    <section id="business2">
         <div class="businessWrap">
             <div class="businessSection">
                 <h2>BUSINESS</h2>

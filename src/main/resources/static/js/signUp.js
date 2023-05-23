@@ -11,8 +11,8 @@ function saveUser(){
     ajaxPost('/api/registerUser', newUser, function (data) {
         if(data.returnCode == 200){
             $("#sign-up-form").trigger("reset");
-            // window.location.assign("/");
             alert('회원가입 완료');
+            window.location.assign("/login");
         } else {
             alert('회원가입 실패');
         }

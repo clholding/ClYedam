@@ -33,7 +33,7 @@
 <form action="/loginSubmit" method="post">
     <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}">
     <div>
-        <label for="username">Email</label>
+        <label for="username">User ID</label>
         <input type="text" id="username" name="username">
     </div>
     <div>
@@ -41,7 +41,7 @@
         <input type="password" id="password" name="password">
     </div>
     <input type="submit" value="Log In" class="btn btn_1">
-    <input type="button" value="Sign Up" class="btn btn_2">
+    <input type="button" value="Sign Up" class="btn btn_2" onclick="window.location.href='/signUp';">
     <div class="keep_check">
         <input type="checkbox" id="keep" name="nvlong" class="input_keep" value="off">
         <label for="keep" class="keep_text">Remember me</label>
