@@ -463,6 +463,19 @@
 
 <div id="mobileNav">
     <ul>
+        <c:if test="${empty name}">
+        <li>
+            <a href="#" onclick="window.location.href='/login';">로그인</a>
+        </li>
+        </c:if>
+        <c:if test="${not empty name}">
+            <li>
+                <a href="#" onclick="">회원 : ${name}</a>
+            </li>
+            <li>
+                <a href="#" onclick="window.location.href='/login';">로그아웃</a>
+            </li>
+        </c:if>
         <li>
             <a href="#" onclick="menuClose()">전시회</a>
         </li>
