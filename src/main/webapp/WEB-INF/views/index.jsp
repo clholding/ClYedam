@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8" isELIgnored="false" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -18,31 +19,6 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/custom.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-    <!-- Google tag (gtag.js) -->
-    <%--    <script async="" src="./누아 NUUA _ Asia No.1 Travel Tech Startup_files/js(1)"></script>--%>
-    <%--    <script>--%>
-    <%--        window.dataLayer = window.dataLayer || [];--%>
-    <%--        function gtag(){dataLayer.push(arguments);}--%>
-    <%--        gtag('js', new Date());--%>
-
-    <%--        gtag('config', 'G-7FS5WHDZLZ');--%>
-    <%--    </script>--%>
-
-    <!--share-->
-    <%--    <meta property="og:type" content="website">--%>
-    <%--    <meta property="og:title" content="누아 NUUA | Asia No.1 Travel Tech Startup">--%>
-    <%--    <meta property="og:description" content="누아는 데이터와 기술을 통해 여행시장을 혁신합니다.">--%>
-    <%--    <meta property="og:locale" content="ko_KR">--%>
-    <%--    <meta property="og:url" content="https://www.nuua.ai/">--%>
-    <%--    <meta property="og:image" content="https://www.nuua.ai/images/og.png?ts0627">--%>
-    <%--    <meta property="og:site_name" content="누아 NUUA">--%>
-
-    <%--    <meta name="twitter:title" content="누아 NUUA | Asia No.1 Travel Tech Startup">--%>
-    <%--    <meta name="twitter:description" content="누아는 데이터와 기술을 통해 여행시장을 혁신합니다.">--%>
-    <%--    <meta name="twitter:image" content="https://www.nuua.ai/images/og_twt.png">--%>
-    <%--    <meta name="twitter:card" content="summary_large_image">--%>
-    <!--share end-->
 
     <meta name="subject" content="누아는 데이터와 기술을 통해 여행시장을 혁신합니다.">
     <meta name="keywords"
@@ -101,13 +77,20 @@
                     </ul>
                 </div>
             </div>
-
+            <c:if test="${empty name}">
             <div class="headerSideRight_02">
                 <div class="selectBox">
                     <button class="label labelDown login" onclick="window.location.href='/login';">로그인</button>
                 </div>
             </div>
-
+            </c:if>
+            <c:if test="${not empty name}">
+                <div class="headerSideRight_02">
+                    <div class="selectBox">
+                        <button class="label labelDown login" onclick="window.location.href='/login';">회원 : ${name} 로그아웃</button>
+                    </div>
+                </div>
+            </c:if>
             <div class="mobileHeaderIconWrap">
                 <div class="language_white language_black" onclick="langOpen()"></div>
                 <div class="icon_24_menu icon_24_menu_black" onclick="menuOpen()"></div>
