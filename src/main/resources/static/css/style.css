@@ -586,6 +586,7 @@ button.navbar-toggler {
 .container {
     width: 100%;
     overflow-x: hidden;
+    background-color:#ffffff;
 }
 
 .header {
@@ -1263,6 +1264,7 @@ video::-webkit-media-controls-start-playback-button {
     width: 1200px;
     display: flex;
     flex-direction: column;
+    margin:0 auto;
 }
 
 .businessSection {
