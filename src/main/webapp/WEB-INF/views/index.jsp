@@ -156,7 +156,7 @@
             </swiper-container>
     </section>
 
-    <section id="business2">
+    <section id="business">
         <div class="businessWrap">
             <div class="businessSection">
                 <h2>BUSINESS</h2>
